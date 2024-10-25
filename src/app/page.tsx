@@ -2,6 +2,7 @@
 "use client"
 import Header from '../app/component/common/HeaderComponent';
 import Hero from '../app/component/HeroComponent';
+import FooterComponent from './component/common/FooterComponent';
 
 
 const HomePage = () => {
@@ -14,7 +15,7 @@ const HomePage = () => {
         <Hero />
         
       </main>
-
+<FooterComponent/>
     </div>
   );
 };
